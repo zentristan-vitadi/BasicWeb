@@ -71,7 +71,10 @@ i{
     
 }
 a:hover{
-    text-decoration: underline;
+    color: #F1A204;
+}
+a.contactMe:hover{
+    background-color: #0c084c;
     color: white;
 }
 .hero{

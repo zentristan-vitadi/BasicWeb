@@ -68,11 +68,10 @@ i{
 .menu ul li{
     margin: 10px 15px 0px 15px;
     text-align: center;
-    
 }
 a:hover{
     text-decoration: underline;
-    color: white;
+    color: #0c084c;
 }
 .hero{
     display: flex;
