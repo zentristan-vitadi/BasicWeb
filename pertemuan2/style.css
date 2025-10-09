@@ -1,0 +1,55 @@
+body{
+    font-family: poppins;
+    background-color: rgb(66, 35, 0);
+    /* margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 50px; */
+
+    /* contoh langsung 1 margin */
+    /* format: atas, kanan, bawah, kiri */
+    margin: 40px 40px 40px 40px;
+}
+
+/* margin space diluar */
+/* padding psace di dalem */
+
+
+
+
+
+p{
+    /* Macam2 properti text */
+    background-color: rgb(192, 153, 95);
+    color: rgb(108, 57, 0);
+    font-size: 18px;
+    font-weight: bold;
+
+    /* spasi antar baris */
+    line-height: 1.5;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+
+    border-radius: 15px;
+}
+
+.descL{
+    background-color: rgb(192, 153, 95);
+    color: rgb(108, 57, 0);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.descL .desc1{
+    background-color: blanchedalmond;
+    padding: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.descL .desc2{
+    background-color: burlywood;
+    padding: 50px;
+    border-radius: 10px;
+}

@@ -1,0 +1,112 @@
+*{
+    font-family: poppins;
+    text-decoration: none;
+    list-style-type: none;
+    color: #687279;
+    font-weight: 500;
+    font-size: 15px;
+}
+.contactMe{
+    background-color: #F1A204;
+    color: white;
+    border-radius: 5px;
+    padding: 12px;
+}
+.atasDesc{
+    color: #0c084c;
+}
+.beranda{
+    color: #F1A204;
+}
+.container{
+    width: 72%;
+    margin: auto;
+}
+.hero{
+    width: 85%;
+    background-color: white;
+    margin: auto;
+}
+br{
+    line-height: 1px;
+}
+h3{
+    color: #F1A204;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 5%;
+}
+h1{
+    color: #0c084c;
+    font-weight: 600;
+    font-size: 50px;
+}
+span{
+    font-weight: 300;
+    color: #0c084c;
+    font-size: 16px;
+}
+img .gambarOrang{
+    padding: 10% 0% 0% 20%;
+}
+img{
+    padding: 0% 4% 0% 4%;
+}
+i{
+    color: #F1A204;
+}
+.navbar{
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+.menu ul li{
+    margin: 10px 15px 0px 15px;
+    text-align: center;
+    
+}
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.hero{
+    display: flex;
+}
+.kontakWA{
+    display: flex;
+    margin: 0px 20px 0px 20px;
+}
+.daftar-Btn{
+    color: white;
+    background-color: #F1A204;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+.program-Btn{
+    color: #0c084c;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    border-width: 2px;
+}
+.partner{
+    width: 85%;
+}
+.partner-head{
+    color: #0c084c;   
+    margin: auto;
+    padding: 5% 0% 0% 0%;
+}
+.fotoPartner{
+    display: flex;
+    align-items: center;
+}
+.perusahaan{
+    color: #0c084c;
+}
