@@ -84,7 +84,7 @@ a.contactMe:hover{
     display: flex;
     margin: 0px 20px 0px 20px;
 }
-.daftar-Btn{
+.daftar-Btn {
     color: white;
     background-color: #F1A204;
     border-radius: 5px;
@@ -115,4 +115,3 @@ a.contactMe:hover{
 }
 .perusahaan{
     color: #0c084c;
-}
