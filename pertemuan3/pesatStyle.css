@@ -55,6 +55,9 @@ img{
 i{
     color: #F1A204;
 }
+h1.judul-Komp{
+    line-height: 60px;
+}
 .navbar{
     padding: 10px 0px 10px 0px;
     display: flex;
@@ -99,10 +102,10 @@ a.contactMe:hover{
     border-width: 2px;
 }
 .partner{
-    width: 70%;
-    justify-content: center;
+    width: 85%;
+    justify-content: start;
     align-items: center;
-    padding: 0% 0% 0% 7%;
+    margin: auto;
 }
 .partner-head{
     color: #0c084c;   
@@ -112,7 +115,7 @@ a.contactMe:hover{
 .fotoPartner{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
 }
 .perusahaan{
     color: #0c084c;
