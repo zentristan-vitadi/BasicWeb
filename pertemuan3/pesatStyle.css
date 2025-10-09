@@ -46,8 +46,8 @@ span{
     color: #0c084c;
     font-size: 16px;
 }
-img .gambarOrang{
-    padding: 20% 0% 0% 20%;
+img.gambarOrang{
+    padding: 8% 0% 0% 20%;
 }
 img{
     padding: 0% 4% 0% 4%;
@@ -66,7 +66,7 @@ i{
     
 }
 .menu ul li{
-    margin: 10px 15px 0px 15px;
+    margin: 10px 15px 0px 0px;
     text-align: center;
     
 }
@@ -112,6 +112,150 @@ a.contactMe:hover{
 .fotoPartner{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .perusahaan{
     color: #0c084c;
+}
+
+
+.judul{
+    text-align: center;
+}
+.judul-Mengapa{
+    font-size: 40px;
+    margin: 5% 0% 0% ;
+}
+.judulAlasan{
+    font-size: 40px;
+}
+.kartu{
+    display: flex;
+    justify-content: center;
+}
+
+
+.card{
+    background-color: #f2f5f7;
+    /* width: 30%; */
+    border-radius: 10px;
+    transition: 0.3s;
+    margin: 0% 2% 0% 2%;
+    justify-content: center;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.voc-Text{
+    font-size: 20px;
+    color: #111518;
+    font-weight: 600;
+}
+ul.list-Voc{
+    padding: 0% 0% 10% 5%;
+}
+ul li{
+    margin: 1% 0% 1% 0;
+}
+
+/* jurusan */
+.jurusan{
+    font-family: poppins;
+    display: flex;
+    margin: 0px 140px 0px 140px;
+}
+.jurusan .tkj{
+    background-color: #ededed;
+    color: rgb(108, 57, 0);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.jurusan .tkj .tombolTkj{
+    background-color: #f1a204;
+    color:#ededed;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.jurusan .tkj .descTkj{
+    color:rgb(119, 119, 119);
+    font-weight: 400;
+}
+.donlotTkj{
+    background-color: #0c084c;
+    color: #ededed;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 45px;   
+}
+/* dkv */
+.jurusan .dkv .tombolDkv{
+    background-color: #f1a204;
+    color:#ededed;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.descDkv{
+    color:rgb(119, 119, 119);
+    font-weight: 400;
+}
+.donlotDkv{
+    background-color: #0c084c;
+    color: #ededed;         
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 45px;   
+    text-align: center;
+}
+.jurusan .dkv{
+    background-color: #ededed;
+    color: rgb(108, 57, 0);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+}
+/* rpl */
+.jurusan .rpl{
+    background-color: #ededed;
+    color: rgb(95, 57, 0);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 3px;
+}
+.jurusan .rpl .tombolRpl{
+    background-color: #f1a204;
+    color:#ededed;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.descRpl{
+    color:rgb(119, 119, 119);
+    font-weight: 400;
+}
+.donlotRpl{
+    background-color: #0c084c;
+    color: #ededed;         
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 45px;   
+}
+.jurusan .rpl{
+    background-color: #ededed;
+    color: rgb(108, 57, 0);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+}
