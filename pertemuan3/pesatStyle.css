@@ -61,6 +61,10 @@ h1.judul-Komp{
 img.partner-gambar{
     padding: 0% 4% 0% 4%;
 }
+
+.small-weight{
+    font-weight: 400;
+}
 .navbar{
     padding: 10px 0px 10px 0px;
     display: flex;
@@ -74,7 +78,6 @@ img.partner-gambar{
 .menu ul li{
     margin: 10px 15px 0px 0px;
     text-align: center;
-    
 }
 a:hover{
     color: #F1A204;
@@ -268,7 +271,7 @@ ul li{
 
 /* Gallery Container */
 .container_gallery{
-    max-width: 1100px;
+    max-width: 1300px;
     margin: auto;
 }
 .title{
@@ -318,4 +321,206 @@ ul li{
 }
 .gambar:hover{
     transform: scale(1.05);
+}
+
+
+.judul-portofolio{
+    font-size: 45px;
+    text-align: center;
+    
+}
+
+.container_tkj{
+    width: 72%;
+    margin: auto;
+}
+.container_rpl{
+    /* max-width: 1300px; */
+    width: 72%;
+    margin: auto;
+    
+}
+
+
+.dkvVid-Portofolio{
+    display: flex;
+    justify-content: end;
+}
+p.deskripsi-dkv{
+    color: #0c084c;
+    font-weight: 400;
+    font-size: 13px;
+}
+.deskripsi-dkv{
+    margin: 5% 5% 0% 0%;
+}
+.list-dkv{
+    margin: 30px 0px 50px -30px;
+}
+.dkv-lists{
+    font-weight: 300;
+    font-size: 14px;
+}
+.otherPorto-dkv{
+    background-color: #0c084c;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 5px 10px 5px;
+    margin: 10% 20% 5% 0% ;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    
+}
+.video-dkv{
+    margin: 5% 3% 5% 0%;
+    /* background-color: #111518; */
+    border-radius: 8px;
+    overflow: hidden;
+    
+}
+.credit-dkv{
+    color: #0c084c;
+    margin: 0% 0% 0% 0%;
+    font-size: 20px;
+}
+.desc-dkv{
+    color: #0c084c;
+}
+
+
+.kecil-font{
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.container_tkj{
+    width: 72%;
+    margin: auto;
+}
+
+.container-tkjCard{
+    width: 80%;
+    margin: auto;
+}
+.kartu-tkj{
+    display: flex;
+}
+.tkjVid-Portofolio{
+    display: flex;
+    justify-content: end;
+}
+p.deskripsi-tkj{
+    color: #0c084c;
+    font-weight: 400;
+    font-size: 13px;
+}
+.deskripsi-tkj{
+    margin: 5% 5% 0% 0%;
+}
+.list-tkj{
+    margin: 30px 0px 50px -30px;
+}
+.tkj-lists{
+    font-weight: 300;
+    font-size: 14px;
+}
+.otherPorto-tkj{
+    background-color: #0c084c;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 5px 10px 5px;
+    margin: 10% 20% 5% 0% ;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    
+}
+.video-tkj{
+    margin: 5% 3% 5% 0%;
+    /* background-color: #111518; */
+    border-radius: 8px;
+    overflow: hidden;
+}
+.credit-tkj{
+    color: #0c084c;
+    margin: 0% 0% 0% 0%;
+    font-size: 20px;
+}
+.desc-tkj{
+    color: #0c084c;
+}
+.tkjCard-text{
+    color: #0c084c;
+}
+.tkjCard-desc{
+    color: #0c084c;
+    font-weight: 300;
+    font-size: 12px;
+}
+.tkj-card{
+    width: 25%;
+    height: 100%;
+    margin: 0% 2% 0% 2%;
+}
+.cardModul-tkj{
+    background-color: #F1A204;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 5px 10px 5px;
+    /* margin: 10% 20% 5% 0% ; */
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.rplVid-Portofolio{
+    display: flex;
+    justify-content: end;
+}
+p.deskripsi-rpl{
+    color: #0c084c;
+    font-weight: 400;
+    font-size: 13px;
+}
+.deskripsi-rpl{
+    margin: 5% 5% 0% 0%;
+}
+.list-rpl{
+    margin: 30px 0px 50px -30px;
+}
+.rpl-lists{
+    font-weight: 300;
+    font-size: 14px;
+    
+}
+.otherPorto-rpl{
+    background-color: #0c084c;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 5px 10px 5px;
+    margin: 10% 20% 5% 0% ;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    
+}
+.video-rpl{
+    margin: 5% 3% 5% 0%;
+    /* background-color: #111518; */
+    border-radius: 8px;
+    overflow: hidden;
+}
+.rpl-card{
+    width: 23%;
+    height: 80%;
+    margin: 0% 2% 0% 2%;
+}
+.kartu-rpl{
+    display: flex;
+}
+.container-rplCard{
+    width: 90%;
+    margin: auto;
 }
