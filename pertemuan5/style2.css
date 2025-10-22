@@ -1,0 +1,35 @@
+*{
+    font-family: poppins;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(141, 88, 20);
+}
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(255, 239, 190);
+    padding: 20px;
+    border-radius: 8px;
+}
+input[type="text"],
+select,
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+input[type="submit"]{
+    background-color: #04aa6d;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 5px;
+    border: 0px;
+}
+input[type="submit"]:hover{
+    background-color: #45a049;
+}

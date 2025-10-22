@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style2.css"> -->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <title>Slider</title>
+    <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #ffffff;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 50%;
+      height: 50%;
+      margin-top: 10%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 90%;
+      height: 90%;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+    <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="aset/danauToba.jpg" alt="danau" />
+        <h1>sugiaono</h1>
+    </div>
+      <div class="swiper-slide">
+        <img src="aset/gunung2.jpg" alt="danau"/>
+    </div>
+      <div class="swiper-slide">
+        <img src="aset/pemandangan.jpg" alt="danau"/>
+    </div>
+      <div class="swiper-slide">
+        <img src="aset/hutan.jpg" alt="danau"/>
+    </div>
+      <div class="swiper-slide">
+        <img src="aset/bungalavender.jpg" alt="danau"/>
+    </div>
+    </div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+    var swiper = new Swiper(".mySwiper", {});
+  </script>
+</body>
+</html>

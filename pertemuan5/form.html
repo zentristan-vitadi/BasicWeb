@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>form</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Contact Form</h2>
+        <form action="">
+            <label for="Nama_Lengkap">Nama Lengkap</label>
+            <input type="text" id="Nama_Lengkap" name="Nama_Lengkap" placeholder="Masukan Nama Lengkap Anda . . . ">
+
+            <label for="Negara">Negara</label>
+            <select name="Negara" id="Negara">
+                <option value="PilihNegara">--Pilihan Negara--</option>
+                <option value="Australia">Australia</option>
+                <option value="Canada">Canada</option>
+                <option value="Usa">Usa</option>
+                <option value="Europe">Europe</option>
+            </select>
+            
+            <input type="radio" id="bogor" name="kota" value="Bogor">
+            <label for="Radio">Bogor</label><br>
+            <input type="radio" id="jakarta" name="kota" value="Jakarta">
+            <label for="Radio">Jakarta</label><br>
+            <input type="radio" id="setiabudi" name="kota" value="setiabudi">
+            <label for="Radio">SetiaBudi</label><br>
+
+            <br>
+
+            <input type="checkbox" name="smp" value="smp"/>
+            <label for="Radio">SMP</label><br><br>
+
+            <label for="Subject">Subject</label>
+            <textarea 
+            name="Subject"
+            id="Subject"
+            placeholder="Write Something. . ."
+            style="height: 200px;"></textarea>
+            <input type="submit" id="Submit" name="Submit" placeholder="Submit">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+*{
+    font-family: poppins;
+}
+.container{
+    display: grid;
+    grid-template-areas: "konten1 konten2 konten3 konten4";
+    grid-template-rows: 2fr;
+    gap: 20px;
+    margin: 1%;
+}
+
+.container .satu{
+    grid-area: konten3;
+    background-color: rgb(121, 68, 0);
+    grid-template-rows: 1fr;
+}
+.container .dua{
+    grid-area: konten2;
+    background-color: rgb(131, 78, 10);
+    grid-template-rows: 1fr;
+}
+.container .tiga{
+    grid-area: konten1;
+    background-color: rgb(141, 88, 20);
+    grid-template-rows: 1fr;
+}
+.container .empat{
+    grid-area: konten4;
+    background-color: rgb(151, 98, 30);
+    grid-template-rows: 1fr;
+}
+
+.container2{
+    display: grid;
+    grid-template-areas: "bagian1 bagian2" "bagian3 bagian4";
+    gap: 20px;
+    margin-top: 2%;
+}
+.container2 .one{
+    grid-area: bagian1;
+    background-color: rgb(245, 219, 170);
+}
+.container2 .two{
+    grid-area: bagian2;
+    background-color: rgb(235, 209, 160);
+}
+.container2 .three{
+    grid-area: bagian3;
+    background-color: rgb(225, 199, 150);
+}
+.container2 .four{
+    grid-area: bagian4;
+    background-color: rgb(215, 189, 140);
+}
