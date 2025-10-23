@@ -7,24 +7,37 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ef1f748698.js" crossorigin="anonymous"></script>
     <title>Login Form</title>
 </head>
 <body>
     <div class="container">
         <div class="imageLogin">
-            <img src="loginAset/purpleImage.jpg" alt="ungu" width="100%" class="loginImage"/>
-            <div class="bottom-left">Capturing Moments, <br>Creating Memories</div>
+            <img src="loginAset/pemandangan.jpg" alt="ungu" width="100%" class="loginImage" />
+            <div class="bottom-left">Capturing Moments, <br>Creating Memories <br><br>---</div>
         </div>
         <div class="loginForm">
             <h1>Create an account</h1>
             <p>Already have an account? <a href="#">Log in</a></p>
             <div class="InputLogin">
-                <input type="text" id="FirstName" name="FirstName" placeholder="First Name">
-                <input type="text" id="LastName" name="LastName" placeholder="Last Name">
-                <input type="text" id="Email" name="Email" placeholder="Email">
-                <input type="text" id="Password" name="Password" placeholder="Password">
+                <form action="">
+                    <input type="text" id="FirstName" name="FirstName" placeholder="First Name">
+                    <input type="text" id="LastName" name="LastName" placeholder="Last Name">
+                    <input type="text" id="Email" name="Email" placeholder="Email" class="longInput">
+                    <input type="text" id="password" name="Password" placeholder="Password" class="longInput">
+                    <i class="fa-solid fa-eye" id="togglePassword"></i>
+                    <input type="checkbox">
+                    <label for="" class="termCon">I agree to the <a href="#">Terms & Condition</a></label><br/>
+                    <input type="submit" name="Submit" id="Submit" placeholder="Submit" value="Create Account">
+                    <hr>&nbsp;Or register with&nbsp;<hr>
+                    <div class="typeLogin">
+                        <h3 class="loginType"><i class="fa-brands fa-google"></i>&nbsp;Google</h3>
+                        <h3 class="loginType"><i class="fa-brands fa-apple"></i>Apple</h3>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
+    <script src="script.js"></script> 
 </body>
 </html>

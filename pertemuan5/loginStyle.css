@@ -1,47 +1,116 @@
 body{
-    background-color: #341539;
-    background-image: url(loginAset/purpleBackground.jpg);
+    background-color: #605a70;
+    background-image: url(loginAset/gunungBG.jpg);
     background-size: cover;
     font-family: poppins;
     color: white;
 }
+hr{
+    display: inline-block;
+    width: 33%;
+    background-color: #7a7195;
+    opacity: 30%;
+}
+a{
+    color: #7a7195;
+}
+p{
+    color: #585361;
+    font-size: 13px;
+    margin: -2% 0% 4% 0%;
+}
+h1{
+    font-weight: 400;
+    font-size: 40px;
+}
+.typeLogin{
+    display: flex;
+    margin: 5% 0% 0% 0%;
+}
+h3.loginType{
+    background-color: #2c2638;
+    border: 0.5px solid white;
+    border-radius: 8px;
+    width: 41.5%;
+    padding: 12px;
+    margin: 1% 2% 1% 0%;
+    text-align: center;
+    font-weight: 300;
+}
 .container{
     width: 48%;
     height: 80%;
-    background-color: #140022;
+    background-color: #2c2638;
     margin: auto;
     margin-top: 10%;
     display: flex;
     align-items: start;
     border-radius: 8px;
+    box-shadow: 10px 10px 50px 10px rgb(0, 0, 0);
+    opacity: 95%;
     
 }
 .imageLogin{
-     background-color: aliceblue;
+    /* background-color: aliceblue; */
     width: 35%;
     padding: 1%;
 }
 .loginForm{
-    background-color: aquamarine; 
-    margin: 0% 0% 0% 6%;
+    /* background-color: aquamarine;  */
+    margin: 2% 0% 0% 8%;
     width: 50%;
+    
 }
 img.loginImage{
     margin: 1%;
     border-radius: 8px;
+    filter: brightness(60%);
+    box-shadow: 5px 5px 95px 5px #6d54b5 inset;
 }
 .bottom-left {
   position: absolute;
-  bottom: 270px;
-  left: 580px;
+  bottom: 150px;
+  left: 600px;
   text-align: center;
   color: white;
   font-weight: 300;
+  opacity: 80%;
 }
 input[type="text"]{
     width: 45%;
-    background-color: #1c0130;
+    background-color: #3c364c;
     padding: 13px 3px;
     border-radius: 4px;
-    border: 1px groove black;
+    border: 1px groove #352f44;
+    margin: 2% 0% 2% 0%;
+    color: white;
+}
+input[type="text"].longInput{
+    width: 93%;
+}
+input[type="submit"]{
+    background-color: #6d54b5;
+    width: 95%;
+    padding: 18px;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    margin: 5% 0% 5% 0%;
+}
+#togglePassword {
+  position: absolute;
+  right: 590px;
+  top: 52.5%;
+  transform: translateY(-20%);
+  cursor: pointer;
+  color: #726c82;
+}
+#password{
+    width: 45%;
+    background-color: #3c364c;
+    padding: 13px 3px;
+    border-radius: 4px;
+    border: 1px groove #352f44;
+    margin: 2% 0% 2% 0%;
+    width: 93%;
 }
