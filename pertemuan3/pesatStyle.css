@@ -555,6 +555,7 @@ p.deskripsi-rpl{
 }
 .isiHubungi{
     display: flex;
+    margin-top: 3%;
 }
 .mapHubungi,
 .photoHubungi{
@@ -569,7 +570,7 @@ p.deskripsi-rpl{
 }
 .descHubungi{
     background-color: #F1A204;
-    border-radius: 10px;
+    border-radius: 40px;
     width: 33%;
     margin: 0.2%; 
 }
@@ -580,7 +581,25 @@ p.deskripsi-rpl{
     margin-top: 20%;
     color: white;
 }
+#InteractHubungi{
+    background-color: #111518;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    width: 70%;
+}
 #HubungiDesc{
     color: white;
+}
+#HubungiGede{
+    font-weight: 700;
+    color: white;
+}
+
+.copyright{
+    margin-top: 8%;
+    padding: 20px 10px 20px 150px;
+    background-color: #e7e7e7;
+    font-weight: 300;
 }
 
