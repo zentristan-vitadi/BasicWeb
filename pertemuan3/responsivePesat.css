@@ -4,10 +4,16 @@
         text-align: center;
     }
     .logo{
-        width: 100%;
+        width: 60%;
+        margin: -2% 0% 0% -3%;
+    }
+    .judul-Komp{
+        font-size: 10vw;
+        width: 80%;
+        font-weight: 700;
     }
     .menu ul li{
-        margin: 5% 0% 5% -10%;
+        margin: 3% 0% 3% -10%;
     }
     .navbar{
         flex-direction: column;
@@ -22,5 +28,96 @@
     .daftar-Btn{
         flex-direction: column;
         width: 40%;
+    }
+    .photoOrang{
+        /* background-color: aqua; */
+        margin: 0%;
+        padding: 0%;
+        text-align: center;
+    }
+    .gambarOrang{
+        margin: 0% 0% 0% -18%;
+        text-align: center;
+        max-width: 100%;
+        height: auto;
+    }
+    li.macam2Jurusan{
+    margin: 0% 0% 0% -13%;
+    }
+    .partner-head{
+        text-align: center;
+        margin: 5% 0% 5% 0%;
+    }
+    .fotoPartner{
+        flex-direction: column;
+    }
+    img.partner-gambar{
+        width: 35%;
+        margin: 3% 0% 3% 0%;
+    }
+    .kartu{
+        flex-direction: column;
+    }
+    .card{
+        margin: 2% 0% 2% 0%;
+    }
+    .jurusan{
+        flex-direction: column;
+        width: 98%;
+        /* background-color: aqua; */
+        margin: 0% 0% 0% 1%;
+    }
+
+    .kontakWA{
+        flex-direction: column;
+    }
+    .program-Btn,
+    .daftar-Btn{
+        margin: 0% 0% 0% -7%;
+        width: 70%;
+        text-align: center;
+    }
+    .orangReligius{
+        margin: 0% 0% 0% 12%;
+    }
+    .tombolTkj{
+        width: 90%;
+    }
+    .judul-portofolio{
+        font-size: 9vw;
+    }
+    .kecil-font{
+        font-size: 9vw;
+    }
+    .karyaPorto{
+        font-weight: 300;
+        width: 90%;
+    }
+    .container_tkj{
+        width: 95%;
+    }
+    .tkjVid-Portofolio{
+        flex-direction: column;
+    }
+    .dkvVid-Portofolio{
+        flex-direction: column;
+    }
+    .videoTkj{
+        width: 100%;
+        height: 200px;
+    }
+    .title-tkj{
+        text-align: center;
+    }
+    .deskripsi-tkj{
+        text-align: center;
+    }
+    .kartu-tkj{
+        flex-direction: column;
+        /* background-color: blue; */
+    }
+    .tkj-card{
+        width: 90%;
+        margin: 0% 0% 0% 3%;
     }
 }

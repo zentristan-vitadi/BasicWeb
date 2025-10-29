@@ -15,6 +15,9 @@
 .atasDesc{
     color: #0c084c;
 }
+li.macam2Jurusan{
+    margin: 0% 0% 0% -7%;
+}
 .beranda{
     color: #F1A204;
 }
@@ -154,6 +157,11 @@ a.contactMe:hover{
 }
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.rpl,
+.tkj,
+.dkv:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .voc-Text{
     font-size: 20px;
