@@ -1,0 +1,46 @@
+*{
+    font-family: poppins;
+}
+h1.judulJurusan{
+    text-align: center;
+    font-size: 40px;
+}
+.jurusan{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.Judul{
+    text-align: center;
+}
+#Jurusan{
+    background-color: brown;
+    width: 30%;
+    margin: auto;
+    padding: 15px;
+    margin-top: 1%;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+}
+@media screen and (max-width: 430px) {
+    #Jurusan{
+        background-color: burlywood;
+        margin: auto;
+        width: 80%;
+        padding: 15px;
+        margin-top: 2%;
+        border-radius: 4px;
+        color: black;
+        text-align: center;
+    }
+    .jurusan{
+        flex-direction: column;
+        /* or */
+        /* display: inline; */
+    }
+    h1.judulJurusan{
+        text-align: center;
+        font-size: 5vw;
+    }
+}

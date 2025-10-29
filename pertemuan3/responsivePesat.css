@@ -1,0 +1,26 @@
+@media screen and (max-width: 430px) {
+    .menu ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo{
+        width: 100%;
+    }
+    .menu ul li{
+        margin: 5% 0% 5% -10%;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .container{
+        width: 98%;
+    }
+    .hero{
+        display: inline;
+    }
+    .kontakWA.program-Btn,
+    .daftar-Btn{
+        flex-direction: column;
+        width: 40%;
+    }
+}

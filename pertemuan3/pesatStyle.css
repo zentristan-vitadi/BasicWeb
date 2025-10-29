@@ -524,3 +524,55 @@ p.deskripsi-rpl{
     width: 90%;
     margin: auto;
 }
+
+.hubSkrngDesc{
+    text-align: center;
+}
+.daftarDesc{
+    margin: -3% 0% 0% 0%;
+    color: #0c084c;
+    font-weight: 300;
+    font-size: 15px;
+}
+.daftarJudul{
+    font-size: 50px;
+}
+
+.googleMaps{
+    border-radius: 4px;
+}
+
+.fontGede{
+    font-weight: 600;
+}
+.isiHubungi{
+    display: flex;
+}
+.mapHubungi,
+.photoHubungi{
+    /* background-color: #111518; */
+    width: 33%;
+    margin: 0.2%;
+    text-align: center;
+}
+.descLokasi{
+    color: #0c084c;
+    font-weight: 400;
+}
+.descHubungi{
+    background-color: #F1A204;
+    border-radius: 10px;
+    width: 33%;
+    margin: 0.2%; 
+}
+.isiDescHubungi{
+    /* background-color: #0c084c; */
+    width: 60%;
+    margin: auto;
+    margin-top: 20%;
+    color: white;
+}
+#HubungiDesc{
+    color: white;
+}
+
