@@ -1,0 +1,34 @@
+:root{
+    --MainColor : #773a00;
+    --SecondaryColor : #b1743b;
+    --TextColor : white;
+    --DefaultPadding : 10px;
+    --DefaultRadius : 10px;
+    --HoverColour : #e2a770;
+    --DefaultTextSize : 15px;
+}
+body{
+    font-family: poppins;
+    color: var(--TextColor);
+    background-color: var(--MainColor);
+    padding: var(--DefaultPadding);
+}
+button{
+    border-radius: var(--DefaultRadius);
+    background-color: var(--SecondaryColor);
+    color: var(--TextColor);
+    padding: var(--DefaultPadding);
+    border: none;
+    transition: 0.1s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: var(--HoverColour);
+    scale: 1.1;
+}
+p{
+    font-size: var(--DefaultTextSize);
+    color: var(--TextColor);
+    padding: var(--DefaultPadding);
+    
+}
