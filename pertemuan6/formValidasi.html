@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="FormValidasi.css">
+    <title>Form Validasi</title>
+</head>
+<body>
+    <div class="form-container">
+        <h2>-Form Pendaftaran-</h2>
+        <form action="" id="myForm">
+            <div class="form-group">
+                <label for="name">• Name</label>
+                <input type="text" id="name" placeholder="Insert Your Full Name">
+                <div class="error" id="nameError"></div>
+            </div>
+            <div class="form-group">
+                <label for="email">• Email</label>
+                <input type="email" id="email" placeholder="Insert Your Email">
+                <div class="error" id="emailError"></div> 
+            </div>
+            <div class="form-group">
+                <label for="password">•  Password</label>
+                <input type="password" id="password" placeholder="Minimum 8 Characters">
+                <div class="error" id="passwordError"></div>
+            </div>      
+            <button type="submit">Register</button>                          
+        </form>
+    </div>
+    <script>
+        const form = document.getElementById("myForm");
+        const nameInput = document.getElementById("name");
+        const emailInput = document.getElementById("email");
+        const passwordInput = document.getElementById("password");
+
+        const nameError = document.getElementById("nameError");
+        const emailError = document.getElementById("emailError");
+        const passwordError = document.getElementById("passwordError");
+
+        form.addEventListener("submit", function(event){
+            event.preventDefault(); //agar tidak reload page
+
+            //reset pesan eror
+            nameError.textContent = "";
+            emailError.textContent = "";
+            passwordError.textContent = "";
+            
+            //validasi nama
+            if (nameInput.value.trim() === ""){
+                nameError.textContent = "Input Your Name First!"
+            }
+
+            const emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+            if (emailInput.value.trim() === ""){
+                emailError.textContent = "Input Your Email First!"
+            } else if(!emailInput.value.match(emailPattern)){
+                emailError.textContent = "Email Is on The Wrong Format";
+            }
+            if (passwordInput.value.trim() === ""){
+                passwordError.textContent = "Input Your Password First!"
+            } else if(passwordInput.value.length < 8){
+                passwordError.textContent = "Password Is Not Long Enough!"
+            }
+        })
+    </script>
+</body>
+</html>
