@@ -50,6 +50,15 @@
 .About{
     scroll-margin-top: 360px; /* offset equal to your navbar height */
 }
+.Service{
+    scroll-margin-top: 160px; /* offset equal to your navbar height */
+}
+.FAQ{
+    scroll-margin-top: 160px; /* offset equal to your navbar height */
+}
+.Project{
+    scroll-margin-top: 160px; /* offset equal to your navbar height */
+}
 
 .Service img{
     transition: 0.5s;
